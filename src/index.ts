@@ -5,7 +5,7 @@ const app = express();
 const port = 3001;
 
 app.get('/', (req, res) => {
-    res.send('Server is running ✅ zalupa1');
+    res.send('Server is running ✅');
 });
 
 app.listen(port, () => {
